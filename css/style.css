@@ -116,7 +116,7 @@ p, ul {
 }
 
 #home {
-  background: url(Images/main.JPG) no-repeat center center fixed; 
+  background: url(../Images/main.JPG) no-repeat center center fixed; 
   display: table;
   height: 750px;
   position: relative;
@@ -129,7 +129,7 @@ p, ul {
 }
 
 #cutting {
-  background: url(Images/cutting.JPG) no-repeat center center fixed; 
+  background: url(../Images/cutting.JPG) no-repeat center center fixed; 
   display: table;
   height: 400px;
   position: relative;
@@ -142,7 +142,7 @@ p, ul {
 }
 
 #sauce {
-  background: url(Images/sauce.JPG) no-repeat center center fixed; 
+  background: url(../Images/sauce.JPG) no-repeat center center fixed; 
   display: table;
   height: 400px;
   position: relative;
@@ -155,7 +155,7 @@ p, ul {
 }
 
 #enjoy {
-  background: url(Images/done.JPG) no-repeat center center fixed; 
+  background: url(../Images/done.JPG) no-repeat center center fixed; 
   display: table;
   height: 575px;
   position: relative;
