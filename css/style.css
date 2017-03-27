@@ -78,6 +78,7 @@ ul.nav  a:hover {
   margin-top: 20px;
   padding: 0;
   color: #fff;
+  font-family: 'Pacifico', cursive;
 }
 
 .btn-group-lg>.btn, .btn-lg {
