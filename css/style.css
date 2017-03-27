@@ -194,8 +194,14 @@ footer p {
 }
 
 @media only screen and (max-width: 766px) {
-  .collapsing, .in {background-color: #fff;}
-  .collapsing ul li a, .in ul li a {color: #d55f11!important;}
-  .collapsing ul li a:hover, .in ul li a:hover {color: #000!important;}
+  .collapsing, .in {
+    background-color: #fff;
+  }
+  .collapsing ul li a, .in ul li a {
+    color: #d55f11!important;
+  }
+  .collapsing ul li a:hover, .in ul li a:hover {
+    color: #000!important;
+  }
 }
 
