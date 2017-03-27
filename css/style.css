@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  background: #fff;
+}
+
+.pad-section {
+  padding: 50px 0;
+  height: 300px;
+}
+
+.pad-section img {
+  width: 100%;
+}
+
+.pad-section h4, h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.navbar-default {
+  background-color: #fff;
+  height: 50px;
+}
+
+.navbar-default .navbar-brand {
+  color: #d55f11;
+  font-weight: 600;
+  font-size: 1.3em;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 2px #aaa;
+
+}
+
+.navbar-default .navbar-nav li a {
+  color: #d55f11;
+  font-family: 'Pacifico', cursive;
+  font-size: 0.8em;
+}
+
+ul.nav  a:hover { 
+  color: #999 !important; 
+}
+
+.navbar-default .navbar-brand {
+  color: #d55f11;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #999;
+}
+.navbar-default .navbar-brand:focus {
+  color: #d55f11;
+}
+
+.text-vcenter h1 {
+  font-size: 2.0em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.text-vcenter h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: 20px;
+  padding: 0;
+  color: #fff;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  margin-top: 350px;
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+
+.btn-group-lg>.btn, .btn-lg:hover {
+  background-color: #d55f11;
+  color: #fff;
+  border-color: #d55f11;
+}
+
+.btn-group-lg>.btn, .btn-lg:focus {
+  margin-top: 350px;
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.row {
+  font-size: 0.7em;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+p, ul {
+  margin-bottom: 50px;
+}
+
+#home {
+  background: url(../images/main.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 750px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#cutting {
+  background: url(../images/cutting.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 400px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#sauce {
+  background: url(../images/sauce.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 400px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#enjoy {
+  background: url(../images/done.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 575px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#enjoy h3 {
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+}
+
+footer {
+  margin-top: 20px;
+  height: 75px;
+  color: #d55f11;
+  font-size: 1.2em;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+.credits {
+  margin-bottom: 20px;
+  color: #d55f11;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 766px) {
+  .collapsing, .in {background-color: #fff;}
+  .collapsing ul li a, .in ul li a {color: #d55f11!important;}
+  .collapsing ul li a:hover, .in ul li a:hover {color: #000!important;}
+}
+
